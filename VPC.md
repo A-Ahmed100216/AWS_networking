@@ -20,8 +20,10 @@
 10. Select 'Route Tables' and click 'Create route table'. Assign a name i.e public-route and select your VPC. Click 'create'. Repeat for private
 11. Navigate to the newly created route tables and click the 'Routes' tab. Click 'Edit routes'. Configure as shown:
 **Public**
-![Pub_route](pub_route.png)
-![Private_route](priv_route.png)
+![Pub_route](images/pub_route.png)     
+
+**Private**
+![Private_route](images/priv_route.png)
 12. Click the 'Subnet associations' tab and associate with the corresponding subnet i.e private NACL --> private subnet.
 13. Navigate to EC2 and create an instance for the **app**. Follow steps 1 and 2 as normal.
 14. For Step 3: Configure Instance Details, amend the 'Network' to your newly created VPC. Select your public subnet. Then set 'Auto-assign Public IP' to enable.
