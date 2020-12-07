@@ -40,4 +40,6 @@ scp -i ~/.ssh/key.pem -r folder ubuntu@ip:~/
 20. To view the posts page, stop the app and use the following command:
 ```bash
 DB_HOST=db_ip pm2 start app.js
-```
+```     
+
+![posts](images/posts.png)

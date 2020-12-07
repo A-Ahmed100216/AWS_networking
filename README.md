@@ -1,8 +1,8 @@
 # Networking
 
 ## Contents
-* [Networks](## Networks)
-* [IP Addresses](## IP Addresses)
+* [Networks](##Networks)
+* [IP Addresses](##IP Addresses)
 
 
 
@@ -63,7 +63,7 @@ network identifier  host identifier     no. of fixed bits
 * Used to understand how communication takes place in the cloud and basic networking.
 
 ## VPC
-* Virtual Private Cloud - A virtual network dedicated to your AWS account. Resembles a traditional network infrastructure with the benefits of rapid scalability offered by AWS. 
+* Virtual Private Cloud - A virtual network dedicated to your AWS account. Resembles a traditional network infrastructure with the benefits of rapid scalability offered by AWS.
 * Subnet - Range of IP addresses in your VPC
 * Route Table - A set of rules that are used to determine where network traffic is directed.
 * Internet Gateway - Enables communication between VPC and internet.
