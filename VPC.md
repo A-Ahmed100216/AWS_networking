@@ -41,5 +41,4 @@ scp -i ~/.ssh/key.pem -r folder ubuntu@ip:~/
 ```bash
 DB_HOST=db_ip pm2 start app.js
 ```     
-
 ![posts](images/posts.png)
