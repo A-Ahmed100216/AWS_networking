@@ -62,9 +62,21 @@ network identifier  host identifier     no. of fixed bits
 * Open Systems Interconnection Model
 * Used to understand how communication takes place in the cloud and basic networking.
 
+|     Layer    | Number |                               Function                              |    Protocol/Address   |
+|:------------:|:------:|:-------------------------------------------------------------------:|:---------------------:|
+|  Application |    7   | Means for an application to access a computer network               | HTTP(s),FTP,DHCP,LDPA |
+| Presentation |    6   | Ensure that an app layer can read data. Encryption                  |       ASCI, ICA       |
+|    Session   |    5   | Enables orderly exchange of data                                    |      NetBIOS, RPC     |
+|   Transport  |    4   | Provides protocol to support host-to-host communication             |        TCP, UDP       |
+|    Network   |    3   | Routing and packet forwarding (routers)                             |           IP          |
+|   Data Link  |    2   | Transfer data in the same LAN network                               |          MAC          |
+|   Physical   |    1   | Transmission and reception of raw bitstreams over a physical medium |        Signals        |
+
+
+
 ## VPC
 * Virtual Private Cloud - A virtual network dedicated to your AWS account. Resembles a traditional network infrastructure with the benefits of rapid scalability offered by AWS.
-* Subnet - Range of IP addresses in your VPC
+* Subnet - Range of IP addresses in your VPC. Belong to a single of availability zone. 
 * Route Table - A set of rules that are used to determine where network traffic is directed.
 * Internet Gateway - Enables communication between VPC and internet.
 
