@@ -1,10 +1,10 @@
 # Networking
 
-## Contents
+# Contents
 * [Networks](##Networks)
 * [IP Addresses](##IP-Addresses)
-
-
+* [Submask and CIDR blocks](##Submask-and-CIDR-blocks)
+* [OSI Model](##OSI-Model)
 
 ## Networks
 * A computer network is 2 or more machines that are connected together in order to communicate.
@@ -67,3 +67,9 @@ network identifier  host identifier     no. of fixed bits
 * Subnet - Range of IP addresses in your VPC
 * Route Table - A set of rules that are used to determine where network traffic is directed.
 * Internet Gateway - Enables communication between VPC and internet.
+
+## Bastions
+* Bastion - Fortified wall/structure. Safeguards what is inside
+* In computing?
+* > A bastion is a special purpose server instance that is designed to be the primary access point from the Internet and acts as a proxy to your other EC2 instances.
+[*source*](https://aws.amazon.com/blogs/security/controlling-network-access-to-ec2-instances-using-a-bastion-server/)
